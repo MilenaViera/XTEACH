@@ -10,7 +10,6 @@ class CreateInscriptions < ActiveRecord::Migration[7.0]
       t.integer :score
       t.boolean :completed
       t.boolean :graduate
-      t.datetime :inscription_date
       t.timestamps
     end
   end
