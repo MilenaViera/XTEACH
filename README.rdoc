@@ -1,0 +1,57 @@
+== Introduction
+
+Hi, this application is to be evaluated on my knowledge of Ruby on Rails applying to the position at XTEACH.
+
+== Stack
+
+Ruby 3.0.4
+Rails 7.0.4
+DB PostgreSQL
+
+== Gems
+
+The following gems helped me to be able to TDD throughout the project:
+
+  gem 'rspec-rails', '~> 6.0.0'
+  gem 'shoulda-matchers', '~> 5.0'
+  gem 'devise', '~> 4.8', '>= 4.8.1'
+
+== Setting up
+
+The steps for setup are listed below:
+
+1) bundle install
+2) rails db:prepare
+        or
+  rails db:create
+  rails db:migrate
+  rails db:seed
+
+4) rspec #_We validate that all tests pass
+
+5) rails s
+
+== Credentials
+
+EMAIL: admin@example.com
+PASS: password
+
+
+<b>Routes</b>
+
+# get reports of all students
+/students
+
+# report of all courses that were graduated
+/students/graduate
+
+
+== Final comment
+
+With more time I could improve many more things... some of them are:
+
+- Improve and increase tests through Capybara
+
+- Work in some way future reports generated from ActiveJobs with Sidekiq
+
+- Apply some good practices to avoid repeating code, improve logic patterns
