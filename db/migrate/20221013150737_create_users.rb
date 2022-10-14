@@ -7,6 +7,7 @@ class CreateUsers < ActiveRecord::Migration[7.0]
       t.string :email
       t.integer :progress_average
       t.integer :grade_point_average
+      t.boolean :graduate
       t.timestamps
     end
   end
