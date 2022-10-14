@@ -4,9 +4,9 @@ Hi, this application is to be evaluated on my knowledge of Ruby on Rails applyin
 
 == Stack
 
-Ruby 3.0.4
-Rails 7.0.4
-DB PostgreSQL
+  Ruby 3.0.4
+  Rails 7.0.4
+  DB PostgreSQL
 
 == Gems
 
@@ -21,16 +21,16 @@ The following gems helped me to be able to TDD throughout the project:
 
 The steps for setup are listed below:
 
-1) bundle install
-2) rails db:prepare
+ 1) bundle install
+ 2) rails db:prepare
         or
   rails db:create
   rails db:migrate
   rails db:seed
 
-4) rspec #_We validate that all tests pass
+ 4) rspec #_We validate that all tests pass
 
-5) rails s
+ 5) rails s
 
 == Credentials
 
