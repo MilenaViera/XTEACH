@@ -34,3 +34,7 @@ enrollments.each do |row|
     graduate: row['progress'].to_i == 100 && row['score'].to_i > row['pass_score'].to_i
   )
 end
+Admin.create(
+  email: 'admin@example.com',
+  password: 'password'
+)

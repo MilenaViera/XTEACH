@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
-  get '/students', to: 'users#index'
+  devise_for :admins
+  #get '/students', to: 'users#index'
+
+  root to: "users#index"
 end
