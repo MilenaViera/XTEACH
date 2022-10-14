@@ -15,6 +15,7 @@ The following gems helped me to be able to TDD throughout the project:
   gem 'rspec-rails', '~> 6.0.0'
   gem 'shoulda-matchers', '~> 5.0'
   gem 'devise', '~> 4.8', '>= 4.8.1'
+  gem 'rubocop'
 
 == Setting up
 
