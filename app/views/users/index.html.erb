@@ -1,0 +1,33 @@
+<header>
+    <div class="logo">
+     <img src="https://www.xteach.es/wp-content/uploads/2021/05/xteach_logo_color.png" alt="logo"/>
+   </div>
+</header>
+<div class="title">
+      <h2>Lista de alumnos</h2>
+</div>
+<div class="container">
+    <table class="table table-hover">
+    <thead>
+        <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Progress</th>
+        <th scope="col">Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+         <% @users.each do |user| %>
+            <th  scope="row">1</th>
+            <td><%= user.name %> </td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>graduate</td>
+            <% end %>
+        </tr>
+    </tbody>
+    </table>
+    </table>
+ </div>
