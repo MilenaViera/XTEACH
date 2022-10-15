@@ -34,17 +34,14 @@ The steps for setup are listed below:
 
 == Credentials
 
-EMAIL: admin@example.com
-PASS: password
+  EMAIL: admin@example.com
+  PASS: password
 
 
 <b>Routes</b>
 
 # get reports of all students
 /students
-
-# report of all courses that were graduated
-/students/graduate
 
 
 == Final comment

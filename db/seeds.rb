@@ -38,3 +38,5 @@ Admin.create(
   email: 'admin@example.com',
   password: 'password'
 )
+
+puts 'Se realizo la carga de datos exitosamente.'

@@ -69,5 +69,3 @@ yarn-debug.log*
 /public/uploads
 
 /.idea
-
-db/schema.rb
